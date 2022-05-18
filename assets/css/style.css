@@ -1,0 +1,16 @@
+/*
+global
+*/
+* {
+font-family: arial, helvetica, sans-serif;
+color: #333;
+}
+
+body {
+	background-color: #eee;
+}
+
+p {
+	font-size:14px;
+	line-height:18px;
+}

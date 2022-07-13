@@ -1,5 +1,4 @@
 <?php
-//todo: remove inline php
 session_start();
 
 if (!isset($_SESSION['number'])) {
@@ -28,9 +27,8 @@ if ($guess == $rand) {
       <link rel="stylesheet" href="assets/css/style.css">
    </head>
    <body>
-      <h1>I'm thinking of a number between 1-100...</h1>
+      <h1>Pick a number between 1-100...</h1>
       <?php
-	  //todo: remove inline php
 		if ($guess != false) {
 			print "<hr />";
 			print "You guessed $guess. <br />";
@@ -57,7 +55,7 @@ if ($guess == $rand) {
          <button type="submit">Submit</button>
          <br />
          <br />
-         <a href="assets/php/controllers/logout.php">Start Over</a>
+         <a href="assets/php/logout.php">Start Over</a>
          <br />
          <br />
          <details>
